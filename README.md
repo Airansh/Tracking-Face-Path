@@ -10,6 +10,12 @@ Run the file **demos > VedanshFinalCode.m** for running the application.
 At the time of this writing, there are no official Matlab bindings for Azure Kinect.  
 This library allows using Azure Kinect directly in Matlab.
 
+**Upon running: You can do the 5 following operations**
+1. Press 'spacebary key' to start recording data points.
+2. Optional: Press 's' to stop recording data points.
+3. Press 'p' to stop recording data points and plot graph.
+4. Press 'c' to clear data points recorded so far.
+5. Press 'q' to exit.
 
 ## Installation:
 1. Install the Azure Kinect SDK as described [here](https://docs.microsoft.com/en-us/azure/kinect-dk/sensor-sdk-download)  where it says Microsoft installer. For Windows, Download the .exe and follow the steps. For Ubuntu use the *sudo apt install* commands shown in the same page.
