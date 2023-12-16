@@ -1,4 +1,4 @@
-#Independent Study Project by Vedansh Airen 
+# Independent Study Project by Vedansh Airen 
 
 This is a Matlab application I developed to track the face and plotting its trajectory/path (and filtering out the noise).
 
