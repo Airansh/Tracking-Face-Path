@@ -1,4 +1,12 @@
-# KinZ for Matlab, A library for Azure Kinect
+#Independent Study Project by Vedansh Airen 
+
+This is a Matlab application I developed to track the face and plotting its trajectory/path (and filtering out the noise).
+
+It is developed with KinZ library for Matlab and runs with Microsoft Kinect camera.
+
+Run the file **demos > VedanshFinalCode.m** for running the application.
+
+**Using KinZ for Matlab, A library for Azure Kinect**
 At the time of this writing, there are no official Matlab bindings for Azure Kinect.  
 This library allows using Azure Kinect directly in Matlab.
 
@@ -13,28 +21,7 @@ This library allows using Azure Kinect directly in Matlab.
 5. Open the *compile_for_windows.m* or *compile_for_linux.m*, set the corresponding paths and run. If the compilation was successful,
 6. For the case of Windows, add to the windows path environmental variable the bin directory containing the **k4a.dll** and optionally **k4abt.dll** (if compiling the body tracking SDK). For example add *C:\Program Files\Azure Kinect SDK v1.4.1\tools* to the path environmental variable. Follow the instructions described [here](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/).
 
-
-## Demos
-Inside demos directory, you'll find demos showing all the features of the library.  
-Currently, there are only 5 demos:
-- **videoDemo**: shows how to get color, depth IR, and IMU sensors.
-- **calibrationDemo**: shows how to extract camera calibration values.
-- **pointcloudDemos**: shows how to get the colored pointcloud and visualize it.
-- **bodyTrackingDemo**: shows how to get body tracking information and visualize it.
-
 [![View KinZ-Matlab on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/81788-kinz-matlab)
-
-![RGB, Depth, and Infrared](/demos/videodemo.png "Video Demo")
-
-## Coming soon ...
-### Hand pose estimation
-Color image keypoints 
-![alt text](https://github.com/jrterven/KinZ-Python/blob/master/resources/0002-color_vis.jpg "RGB Image keypoints")
-
-Depth image keypoints
-![alt text](https://github.com/jrterven/KinZ-Python/blob/master/resources/0002-depth_vis.png "Depth Image keypoints")
-
-
 For more details checkout the [wiki pages](https://github.com/jrterven/KinZ-Matlab/wiki).
 
 ## Citation  
